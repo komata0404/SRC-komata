@@ -1,0 +1,4 @@
+23:10:40.525 [Worker-71] ERROR org.coocox.codb.common.log.ErrorLog - [clone user pass] executed Error 
+C:\CooCox\CoIDE\bin\fossil.exe: not a valid repository: C:/CooCox/CoIDE/repo\.rn\fossils\36c3b74b-5fce-4300-89e5-9fe16aab26f3.fossil
+
+23:10:40.525 [Worker-71] ERROR org.coocox.codb.common.log.ErrorLog - clone cloneFromServer:2693f3 http://data.coocox.org:9090/cgi-bin/repo/36c3b74b-5fce-4300-89e5-9fe16aab26f3 C:/CooCox/CoIDE/repo\.rn\fossils\36c3b74b-5fce-4300-89e5-9fe16aab26f3.fossil org.coocox.codb.common.fossil.FossilException: fossilwrapper clone errored!

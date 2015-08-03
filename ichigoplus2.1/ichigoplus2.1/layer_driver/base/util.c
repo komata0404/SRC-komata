@@ -60,7 +60,7 @@ typedef union{
     unsigned char char4_value[4];
 }Int_char4;
 
-int char4_to_int(unsigned char *value){
+int uchar4_to_int(unsigned char *value){
     Int_char4 tmp;
     tmp.char4_value[0]=value[0];
     tmp.char4_value[1]=value[1];
@@ -69,7 +69,7 @@ int char4_to_int(unsigned char *value){
     return tmp.int_value;
 }
 
-void int_to_char4(unsigned char *value,int int_value){
+void int_to_uchar4(unsigned char *value,int int_value){
     Int_char4 tmp;
     tmp.int_value=int_value;
     value[0]=tmp.char4_value[0];
@@ -84,14 +84,14 @@ typedef union{
 }UShort_char2;
 
 
-unsigned short char2_to_ushort(unsigned char *value){
+unsigned short uchar2_to_ushort(unsigned char *value){
     UShort_char2 tmp;
     tmp.char2_value[0]=value[0];
     tmp.char2_value[1]=value[1];
     return tmp.short_value;
 }
 
-void ushort_to_char2(unsigned char *value,unsigned short short_value){
+void ushort_to_uchar2(unsigned char *value,unsigned short short_value){
     UShort_char2 tmp;
     tmp.short_value=short_value;
     value[0]=tmp.char2_value[0];

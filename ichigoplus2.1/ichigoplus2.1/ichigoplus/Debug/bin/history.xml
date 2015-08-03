@@ -1,69 +1,71 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -Map=ichigoplus.map -O0 --gc-sections -lm -lgcc -lc -lstdc++ -LC:\CooCox\CoIDE\configuration\ProgramData\ichigoplus -TC:\CooCox\CoIDE\configuration\ProgramData\ichigoplus/arm-gcc-link.ld -g">
-      <target file="ichigoplus.elf" lastModified="14ebab8db76">
-         <source file="..\obj\config_pwm.o" lastModified="14e0e5c39e1"/>
-         <source file="..\obj\usb_core.o" lastModified="14e0e5c3aeb"/>
-         <source file="..\obj\iwdg_software_reset.o" lastModified="14e0e5c3b39"/>
-         <source file="..\obj\config_port.o" lastModified="14e0e5c3c04"/>
+      <target file="ichigoplus.elf" lastModified="14ef32add38">
+         <source file="..\obj\config_pwm.o" lastModified="14edceed2ed"/>
+         <source file="..\obj\usb_core.o" lastModified="14edceed454"/>
+         <source file="..\obj\iwdg_software_reset.o" lastModified="14edceed4a2"/>
+         <source file="..\obj\config_port.o" lastModified="14edceed4e1"/>
          <source file="..\obj\stm32f4xx_sdio.o" lastModified="14e0e5c3c81"/>
-         <source file="..\obj\mini_md.o" lastModified="14e53b1892c"/>
-         <source file="..\obj\usbd_usr.o" lastModified="14e0e5c3d0e"/>
-         <source file="..\obj\config_encoder.o" lastModified="14e0e5c3d8b"/>
-         <source file="..\obj\software_reset.o" lastModified="14e0e5c3de9"/>
-         <source file="..\obj\config_usb.o" lastModified="14e0e5c3e95"/>
+         <source file="..\obj\mini_md.o" lastModified="14edceed80d"/>
+         <source file="..\obj\usbd_usr.o" lastModified="14edceed87b"/>
+         <source file="..\obj\config_encoder.o" lastModified="14edceed8d8"/>
+         <source file="..\obj\software_reset.o" lastModified="14edceed917"/>
+         <source file="..\obj\config_usb.o" lastModified="14edceeda01"/>
          <source file="..\obj\stm32f4xx_usart.o" lastModified="14e0e5c3f12"/>
-         <source file="..\obj\util.o" lastModified="14e0e5c3fae"/>
+         <source file="..\obj\util.o" lastModified="14edceedaec"/>
          <source file="..\obj\stm32f4xx_pwr.o" lastModified="14e0e5c402b"/>
          <source file="..\obj\stm32f4xx_can.o" lastModified="14e0e5c40f6"/>
-         <source file="..\obj\utilplus.o" lastModified="14e0e5c42ab"/>
-         <source file="..\obj\mcutime.o" lastModified="14e0e5c4328"/>
-         <source file="..\obj\config_can.o" lastModified="14e0e5c4396"/>
-         <source file="..\obj\diskio.o" lastModified="14e0e5c4422"/>
-         <source file="..\obj\startup_stm32f4xx.o" lastModified="14e0e5c4480"/>
+         <source file="..\obj\utilplus.o" lastModified="14edceedc91"/>
+         <source file="..\obj\mcutime.o" lastModified="14edceedd1e"/>
+         <source file="..\obj\config_can.o" lastModified="14edceedd9b"/>
+         <source file="..\obj\diskio.o" lastModified="14edceeddf9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14edceede6b"/>
          <source file="..\obj\stm32f4xx_crc.o" lastModified="14e0e5c452c"/>
          <source file="..\obj\stm32f4xx_iwdg.o" lastModified="14e0e5c457a"/>
-         <source file="..\obj\usbd_core.o" lastModified="14e0e5c4626"/>
-         <source file="..\obj\pin.o" lastModified="14e0e5c4849"/>
-         <source file="..\obj\main.o" lastModified="14ebab8d914"/>
-         <source file="..\obj\analog.o" lastModified="14e0e5c4904"/>
-         <source file="..\obj\stm32_ub_fatfs.o" lastModified="14e0e5c4962"/>
+         <source file="..\obj\usbd_core.o" lastModified="14edceedfc3"/>
+         <source file="..\obj\pin.o" lastModified="14edceee350"/>
+         <source file="..\obj\main.o" lastModified="14ef32adaa8"/>
+         <source file="..\obj\analog.o" lastModified="14edceee3ad"/>
+         <source file="..\obj\stm32_ub_fatfs.o" lastModified="14edceee40b"/>
          <source file="..\obj\stm32f4xx_rcc.o" lastModified="14e0e5c49fe"/>
-         <source file="..\obj\system.o" lastModified="14e0e5c4a7b"/>
+         <source file="..\obj\system.o" lastModified="14edceee459"/>
          <source file="..\obj\stm32f4xx_adc.o" lastModified="14e0e5c4b08"/>
          <source file="..\obj\blink.o" lastModified="14e0e5c4b47"/>
-         <source file="..\obj\encoder.o" lastModified="14e0e5c4b95"/>
-         <source file="..\obj\watchdog.o" lastModified="14e0e5c4bc4"/>
-         <source file="..\obj\config_adc.o" lastModified="14e0e5c4c31"/>
-         <source file="..\obj\config_iwdg.o" lastModified="14e0e5c4c7f"/>
-         <source file="..\obj\usbd_desc.o" lastModified="14e0e5c4cec"/>
-         <source file="..\obj\error.o" lastModified="14e0e5c4d69"/>
-         <source file="..\obj\config_systick.o" lastModified="14e0e5c4dc7"/>
-         <source file="..\obj\stm32_ub_sdcard.o" lastModified="14e0e5c4ea2"/>
+         <source file="..\obj\can.o" lastModified="14ed99cdef2"/>
+         <source file="..\obj\encoder.o" lastModified="14edceee4a7"/>
+         <source file="..\obj\watchdog.o" lastModified="14edceee4f6"/>
+         <source file="..\obj\config_adc.o" lastModified="14edceee582"/>
+         <source file="..\obj\config_iwdg.o" lastModified="14edceee5d0"/>
+         <source file="..\obj\usbd_desc.o" lastModified="14edceee64d"/>
+         <source file="..\obj\error.o" lastModified="14edceee6ca"/>
+         <source file="..\obj\config_systick.o" lastModified="14edceee747"/>
+         <source file="..\obj\stm32_ub_sdcard.o" lastModified="14edceee812"/>
          <source file="..\obj\stm32f4xx_gpio.o" lastModified="14e0e5c4f00"/>
-         <source file="..\obj\stm32_ub_usbdisk.o" lastModified="14e0e5c5038"/>
+         <source file="..\obj\stm32_ub_usbdisk.o" lastModified="14edceee880"/>
          <source file="..\obj\stm32f4xx_flash.o" lastModified="14e0e5c50b5"/>
-         <source file="..\obj\usbd_cdc_vcp.o" lastModified="14e0e5c5113"/>
+         <source file="..\obj\usbd_cdc_vcp.o" lastModified="14edceee8ce"/>
          <source file="..\obj\system_stm32f4xx.o" lastModified="14e0e5c5171"/>
-         <source file="..\obj\syscalls.o" lastModified="14e0e5c51fd"/>
+         <source file="..\obj\syscalls.o" lastModified="14edceee9d8"/>
          <source file="..\obj\stm32f4xx_dma.o" lastModified="14e0e5c526b"/>
-         <source file="..\obj\usb_bsp.o" lastModified="14e0e5c52b9"/>
-         <source file="..\obj\usbd_req.o" lastModified="14e0e5c5336"/>
-         <source file="..\obj\usb_dcd_int.o" lastModified="14e0e5c53c2"/>
-         <source file="..\obj\logging.o" lastModified="14e0e5c543f"/>
-         <source file="..\obj\usbd_cdc_core.o" lastModified="14e0e5c54bc"/>
-         <source file="..\obj\stm32_ub_atadrive.o" lastModified="14e0e5c551a"/>
-         <source file="..\obj\ff.o" lastModified="14e0e5c5614"/>
-         <source file="..\obj\digital.o" lastModified="14e0e5c5653"/>
+         <source file="..\obj\usb_bsp.o" lastModified="14edceeea45"/>
+         <source file="..\obj\usbd_req.o" lastModified="14edceeeab2"/>
+         <source file="..\obj\usb_dcd_int.o" lastModified="14edceeeb20"/>
+         <source file="..\obj\logging.o" lastModified="14edceeeb6e"/>
+         <source file="..\obj\usbd_cdc_core.o" lastModified="14edceeebcc"/>
+         <source file="..\obj\stm32_ub_atadrive.o" lastModified="14edceeec1a"/>
+         <source file="..\obj\ff.o" lastModified="14edceeece5"/>
+         <source file="..\obj\digital.o" lastModified="14edceeed23"/>
          <source file="..\obj\stm32f4xx_exti.o" lastModified="14e0e5c56c0"/>
-         <source file="..\obj\name_converter.o" lastModified="14e0e5c573d"/>
+         <source file="..\obj\name_converter.o" lastModified="14edceeeda0"/>
          <source file="..\obj\misc.o" lastModified="14e0e5c579b"/>
-         <source file="..\obj\usb_dcd.o" lastModified="14e0e5c5808"/>
-         <source file="..\obj\serial.o" lastModified="14e0e5c58f3"/>
-         <source file="..\obj\config_i2c.o" lastModified="14e0e5c5950"/>
+         <source file="..\obj\usb_dcd.o" lastModified="14edceeedfe"/>
+         <source file="..\obj\serial.o" lastModified="14edceeee5c"/>
+         <source file="..\obj\config_i2c.o" lastModified="14edceeeec9"/>
+         <source file="..\obj\can_encoder.o" lastModified="14ed99cdf60"/>
          <source file="..\obj\stm32f4xx_rtc.o" lastModified="14e0e5c59ed"/>
-         <source file="..\obj\usbd_ioreq.o" lastModified="14e0e5c5a4a"/>
-         <source file="..\obj\config_usart.o" lastModified="14e0e5c5ab8"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="14edceeef27"/>
+         <source file="..\obj\config_usart.o" lastModified="14edceeef85"/>
          <source file="..\obj\stm32f4xx_tim.o" lastModified="14e0e5c5b83"/>
       </target>
    </processor>

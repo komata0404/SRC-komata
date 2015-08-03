@@ -107,6 +107,12 @@ Coord operator*(Coord coord1,float value);
 Coord operator/(Coord coord1,float value);
 Coord operator/(float value,Coord coord2);
 
+class PhysicalObject{
+	Coord coord;
+	Coord vel;
+	Coord accel;
+};
+
 int sign(int val);
 int sign(float val);
 
